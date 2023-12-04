@@ -1,0 +1,26 @@
+[
+  {
+    "model": "cloud.Provider",
+    "pk": 1,
+    "fields": {
+      "name": "Amazon Web Services",
+      "slug": "aws"
+    }
+  },
+  {
+    "model": "cloud.Provider",
+    "pk": 2,
+    "fields": {
+      "name": "Azure",
+      "slug": "azure"
+    }
+  },
+  {
+    "model": "cloud.Provider",
+    "pk": 3,
+    "fields": {
+      "name": "Google Cloud Platform",
+      "slug": "gcp"
+    }
+  }
+]

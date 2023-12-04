@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+
+{% block info %}
+Home
+{% endblock info %}
+
+{% block content %}
+<div class="col-xl-12">
+    <div class="card "  id="user-activity">
+        <div class="card-header border-0 pb-0 flex-wrap">
+            <h4 class="fs-20 mb-1">Estado general</h4>
+            <div class="card-action coin-tabs mt-3 mt-sm-0">
+                <ul class="nav nav-tabs" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link " data-bs-toggle="tab" href="#Daily" role="tab">Diario</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " data-bs-toggle="tab" href="#Daily" role="tab" >Semanal</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" data-bs-toggle="tab" href="#Daily" role="tab" >Mensual</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="card-body">
+            <div class="pb-4 d-flex flex-wrap">
+                <span class="d-flex align-items-center">
+                    <svg class="me-1" xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 13 13">
+                      <rect  width="13" height="13" rx="6.5" fill="#35c556"/>
+                    </svg>
+                    Total
+                </span>
+                <span class="application d-flex align-items-center">
+                    <svg class="me-1" xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 13 13">
+                      <rect  width="13" height="13" rx="6.5" fill="#3f4cfe"/>
+                    </svg>
+
+                    Creados
+                </span>
+                <span class="application d-flex align-items-center">
+                    <svg class="me-1" xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 13 13">
+                      <rect  width="13" height="13" rx="6.5" fill="#f34040"/>
+                    </svg>
+
+                    Eliminados
+                </span>
+            </div>
+            <div class="tab-content">
+                <div class="tab-pane fade show active" id="Daily">
+                    <canvas id="activity" height="115"></canvas>
+                </div>	
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock content %}

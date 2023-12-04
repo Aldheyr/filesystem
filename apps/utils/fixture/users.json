@@ -1,0 +1,30 @@
+[
+    {
+      "model": "auth.user",
+      "pk": 1,
+      "fields": {
+        "password": "pbkdf2_sha256$260000$CWprzAlkygqUq0XyIDJ4VR$r/QmvhzWEz4H8GfuftDW23sfmivjnS6rx2lNgwI1osg=",
+        "last_login": "2021-06-01 00:00:00.000000",
+        "is_staff": true,
+        "is_active": true,
+        "is_superuser": true,
+        "username": "maco",
+        "email": "macomaco@gmail.com",
+        "date_joined": "2021-06-01 00:00:00.000000"
+        }
+    },
+    {
+      "model": "auth.user",
+      "pk": 2,
+      "fields": {
+        "password": "pbkdf2_sha256$260000$CWprzAlkygqUq0XyIDJ4VR$r/QmvhzWEz4H8GfuftDW23sfmivjnS6rx2lNgwI1osg=",
+        "last_login": "2021-06-01 00:00:00.000000",
+        "is_staff": true,
+        "is_active": true,
+        "is_superuser": false,
+        "username": "admin",
+        "email": "administrador@gmail.com",
+        "date_joined": "2021-06-01 00:00:00.000000"
+      }
+    }
+]

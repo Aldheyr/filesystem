@@ -1,0 +1,6 @@
+dj-database-url
+django
+django-dotenv
+django-filter
+Pillow
+requests

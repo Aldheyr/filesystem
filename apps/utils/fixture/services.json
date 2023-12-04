@@ -1,0 +1,52 @@
+[
+    {
+        "model": "cloud.Service",
+        "pk": 1,
+        "fields": {
+          "name": "Elastic compute cloud",
+          "slug": "ec2",
+          "nombre": "EC2",
+          "type_service_id": 1
+        }
+    },
+    {
+        "model": "cloud.Service",
+        "pk": 2,
+        "fields": {
+          "name": "Elastic Block Store",
+          "slug": "ebs",
+          "nombre": "EBS",
+          "type_service_id": 1
+        }
+    },
+    {
+        "model": "cloud.Service",
+        "pk": 3,
+        "fields": {
+          "name": "Lambda",
+          "slug": "lambda",
+          "nombre": "Lambda",
+          "type_service_id": 1
+        }
+    },
+    {
+        "model": "cloud.Service",
+        "pk": 4,
+        "fields": {
+          "name": "Amazon Simple Storage Service",
+          "slug": "s3",
+          "nombre": "S3",
+          "type_service_id": 3
+        }
+    },
+    {
+        "model": "cloud.Service",
+        "pk": 5,
+        "fields": {
+          "name": "Amazon Elastic File System",
+          "slug": "efs",
+          "nombre": "EFS",
+          "type_service_id": 1
+        }
+    }
+]

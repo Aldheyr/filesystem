@@ -1,0 +1,38 @@
+[
+  {
+    "model": "cloud.Region",
+    "pk": 1,
+    "fields": {
+      "name": "Virginia",
+      "slug": "us-east-1",
+      "provider_id": 1
+    }
+  },
+  {
+    "model": "cloud.Region",
+    "pk": 2,
+    "fields": {
+      "name": "Ohio",
+      "slug": "us-east-2",
+      "provider_id": 1
+    }
+  },
+  {
+    "model": "cloud.Region",
+    "pk": 3,
+    "fields": {
+      "name": "Oregon",
+      "slug": "us-west-2",
+      "provider_id": 1
+    }
+  },
+  {
+    "model": "cloud.Region",
+    "pk": 4,
+    "fields": {
+      "name": "Sao Paulo",
+      "slug": "sa-east-1",
+      "provider_id": 1
+    }
+  }
+]

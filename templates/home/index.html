@@ -1,0 +1,68 @@
+{% extends "base.html" %}
+
+{% block info %}
+Home
+{% endblock info %}
+
+{% block content %}
+<div class="row">
+	<div class="col-xl-12">
+		<div class="card">
+			<div class="card-body">
+				<div class="row separate-row">
+					{% for partition in listdisk %}
+
+						<div class="col-sm-6">
+							<div class="job-icon pb-4 d-flex justify-content-between">
+								<div>
+									<a id="" href="{% url 'home:disk_local' partition.disk %}">
+										<div class="d-flex align-items-center mb-1">
+											<h2 class="mb-0">DISCO    {{partition.device}}</h2>
+											<span class="text-success ms-5"> {{partition.fstype}}</span>
+										</div>
+										<span class="row">
+											<strong class="col-sm-4">
+												Total:
+											</strong>
+											<span class="col-sm-6">
+												{{partition.total}} Gb
+											</span>
+										</span>
+										<span class="row">
+											<strong class="col-sm-4">
+												Usado:
+											</strong>
+											<span class="col-sm-6">
+												{{partition.used}} Gb
+											</span>
+										</span>
+										<span class="row">
+											<strong class="col-sm-4">
+												Libre:
+											</strong>
+											<span class="col-sm-6">
+												{{partition.free}} Gb
+											</span>
+										</span>
+										<span class="row">
+											<strong class="col-sm-4">
+												USO:
+											</strong>
+											<span class="col-sm-6">
+												{{partition.percent}} %
+											</span>
+										</span>
+									</a>
+								</div>
+								<div id="NewCustomers"></div>
+							</div>
+						</div>
+
+					{% endfor %}
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>
+{% endblock content %}

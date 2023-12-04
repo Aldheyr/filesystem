@@ -1,0 +1,122 @@
+[
+    {
+        "model": "cloud.TypeService",
+        "pk": 1,
+        "fields": {
+          "name": "Compute",
+          "slug": "compute",
+          "nombre": "Informática",
+          "cloud_id": 1
+        }
+    },
+    {
+        "model": "cloud.TypeService",
+        "pk": 2,
+        "fields": {
+          "name": "Containers",
+          "slug": "containers",
+          "nombre": "Contenedores",
+          "cloud_id": 1
+        }
+    },
+    {
+        "model": "cloud.TypeService",
+        "pk": 3,
+        "fields": {
+          "name": "Storage",
+          "slug": "storage",
+          "nombre": "Almacenamiento",
+          "cloud_id": 1
+        }
+    },
+    {
+        "model": "cloud.TypeService",
+        "pk": 4,
+        "fields": {
+          "name": "Database",
+          "slug": "database",
+          "nombre": "Base de Datos",
+          "cloud_id": 1
+        }
+    },
+    {
+        "model": "cloud.TypeService",
+        "pk": 5,
+        "fields": {
+          "name": "Migration & Transfer",
+          "slug": "migration-transfer",
+          "nombre": "Migración Y Transferencia",
+          "cloud_id": 1
+        }
+    },
+    {
+        "model": "cloud.TypeService",
+        "pk": 6,
+        "fields": {
+          "name": "Networking & Content Delivery",
+          "slug": "networking-content-delivery",
+          "nombre": "Redes y CDN",
+          "cloud_id": 1
+        }
+    },
+    {
+        "model": "cloud.TypeService",
+        "pk": 7,
+        "fields": {
+          "name": "Developer Tools",
+          "slug": "developer-tools",
+          "nombre": "Herramientas de desarrollo",
+          "cloud_id": 1
+        }
+    },
+    {
+        "model": "cloud.TypeService",
+        "pk": 8,
+        "fields": {
+          "name": "Management & Governance",
+          "slug": "management-governance",
+          "nombre": "Administración y Gobierno",
+          "cloud_id": 1
+        }
+    },
+    {
+        "model": "cloud.TypeService",
+        "pk": 9,
+        "fields": {
+          "name": "Analytics",
+          "slug": "analytics",
+          "nombre": "Analítica",
+          "cloud_id": 1
+        }
+    },
+    {
+        "model": "cloud.TypeService",
+        "pk": 10,
+        "fields": {
+          "name": "Security, Identity, & Compliance",
+          "slug": "security-identity-compliance",
+          "nombre": "Seguridad",
+          "cloud_id": 1
+        }
+    },
+    {
+        "model": "cloud.TypeService",
+        "pk": 11,
+        "fields": {
+          "name": "Application Integration",
+          "slug": "application-integration",
+          "nombre": "Integración De Aplicaciones",
+          "cloud_id": 1
+        }
+    },
+    {
+        "model": "cloud.TypeService",
+        "pk": 12,
+        "fields": {
+          "name": "Machine Learning",
+          "slug": "Machine Learning",
+          "nombre": "Machine Learning",
+          "cloud_id": 1
+        }
+    }
+]
